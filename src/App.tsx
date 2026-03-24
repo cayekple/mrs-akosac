@@ -19,23 +19,13 @@ export default function App() {
     {
       title: 'Picture of the Deceased',
       images: [
-        { src: `${basePath}/img/main.jpg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
-      ]
-    },
-    {
-      title: 'Family Photos',
-      images: [
-        { src: `${basePath}/img/family1.jpg`, alt: 'Family of Mrs AKOSAC' },
-        { src: `${basePath}/img/family2.jpg`, alt: 'Family of Mrs AKOSAC' },
-        { src: `${basePath}/img/family3.jpg`, alt: 'Family of Mrs AKOSAC' },
+        { src: `${basePath}/img/1.jpeg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
       ]
     },
     {
       title: 'Memorial Gallery',
       images: [
-        { src: `${basePath}/img/memorial1.jpg`, alt: 'In memory of Mrs AKOSAC' },
-        { src: `${basePath}/img/memorial2.jpg`, alt: 'In memory of Mrs AKOSAC' },
-        { src: `${basePath}/img/memorial3.jpg`, alt: 'In memory of Mrs AKOSAC' },
+        { src: `${basePath}/img/2.jpeg`, alt: 'In memory of Mrs AKOSAC' },
       ]
     },
   ];
@@ -228,7 +218,7 @@ export default function App() {
                 <div className="w-full max-w-md">
                   <div className="relative overflow-hidden rounded-2xl shadow-2xl ring-1 ring-gray-900/5 dark:ring-white/10">
                     <img
-                      src={`${basePath}/img/main.jpg`}
+                      src={`${basePath}/img/1.jpeg`}
                       alt="Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)"
                       className="w-full object-cover"
                     />
@@ -288,6 +278,27 @@ export default function App() {
                 <div className="h-1 w-20 bg-gray-300 dark:bg-gray-700 mx-auto rounded-full"></div>
               </div>
               <div className="max-w-4xl mx-auto bg-white dark:bg-gray-950 rounded-2xl border border-gray-200 dark:border-gray-800 p-8 md:p-10 shadow-lg">
+                {/* Zoom Meeting Info */}
+                <div className="mb-8 p-6 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-xl">
+                  <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white flex items-center gap-2">
+                    <span>🔗</span>
+                    Join via Zoom
+                  </h3>
+                  <div className="space-y-2 text-gray-700 dark:text-gray-300">
+                    <p className="text-sm sm:text-base">
+                      Unable to attend in person? Join the funeral service remotely via Zoom.
+                    </p>
+                    <a
+                      href="https://wacren.zoom.us/j/66974441086"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-3 px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 text-sm sm:text-base"
+                    >
+                      Join Zoom Meeting
+                    </a>
+                  </div>
+                </div>
+
                 <div className="space-y-6">
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 border-b border-gray-200 dark:border-gray-800 pb-4 hover:bg-gray-50 dark:hover:bg-gray-900/50 -mx-4 px-4 transition-colors duration-200 rounded-lg">
                     <span className="font-semibold text-gray-900 dark:text-white text-lg">Body Viewing</span>
