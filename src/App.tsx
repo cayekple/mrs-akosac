@@ -256,7 +256,7 @@ export default function App() {
               </p>
 
               {/* Countdown Timer */}
-              <div className="max-w-4xl mx-auto mb-8 animate-bounce-in stagger-4">
+              <div className="max-w-4xl mx-auto mb-8 animate-bounce-in">
                 <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-6 border-2 border-blue-200 dark:border-blue-800">
                   <h3 className="text-lg font-semibold mb-4 text-gray-700 dark:text-gray-300">Time Until Service</h3>
                   <div className="grid grid-cols-4 gap-4">
