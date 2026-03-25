@@ -197,6 +197,16 @@ export default function App() {
                   📍 Venue: AGA Basic School
                 </p>
                 <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 font-medium">
+                  <a
+                    href="https://maps.app.goo.gl/PYKpQvusKgoZLJ228"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-gray-900 dark:hover:text-white transition-colors"
+                  >
+                    🗺️ Get directions to the venue
+                  </a>
+                </p>
+                <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 font-medium">
                   📅 Date: 2nd May 2026
                 </p>
                 <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 font-medium">
@@ -333,17 +343,17 @@ export default function App() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
-                Music & Hymns
+                Music & Songs
               </h2>
               <div className="h-1 w-20 bg-gray-300 dark:bg-gray-700 mx-auto rounded-full"></div>
             </div>
             <div className="bg-gray-50 dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-8 md:p-10 shadow-lg">
               <p className="text-center text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                Selected hymns and musical tributes will be performed during the service to celebrate the life and legacy of Mrs AKOSAC.
+                Selected songs and musical tributes will be performed during the service to celebrate the life and legacy of Mrs AKOSAC.
               </p>
               <div className="mt-8 space-y-4">
                 <div className="text-center p-4 bg-white dark:bg-gray-950 rounded-lg">
-                  <p className="font-semibold text-gray-900 dark:text-white mb-2">Opening Hymn</p>
+                  <p className="font-semibold text-gray-900 dark:text-white mb-2">Opening Song</p>
                   <p className="text-gray-600 dark:text-gray-400">To be announced</p>
                 </div>
                 <div className="text-center p-4 bg-white dark:bg-gray-950 rounded-lg">
@@ -351,7 +361,7 @@ export default function App() {
                   <p className="text-gray-600 dark:text-gray-400">Family and friends</p>
                 </div>
                 <div className="text-center p-4 bg-white dark:bg-gray-950 rounded-lg">
-                  <p className="font-semibold text-gray-900 dark:text-white mb-2">Closing Hymn</p>
+                  <p className="font-semibold text-gray-900 dark:text-white mb-2">Closing Song</p>
                   <p className="text-gray-600 dark:text-gray-400">To be announced</p>
                 </div>
               </div>
