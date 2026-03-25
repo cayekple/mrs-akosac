@@ -176,7 +176,7 @@ export default function App() {
   const programItems = [
     { time: '8:30 AM', title: 'Body Viewing', location: 'AKOSAC\'s residence, Akosac\'s Street near Santiago Bar', icon: '👁️' },
     { time: '9:30 AM', title: 'Eulogy, Music & Photo Gallery', location: '', icon: '🎵' },
-    { time: '11:00 AM', title: 'Main Service', location: 'AGA Basic School', icon: '⛪' },
+    { time: '11:00 AM', title: 'Main Service', location: 'AGA Basic School', icon: '🙏' },
     { time: 'Following Service', title: 'Interment', location: '', icon: '🕊️' },
   ];
 
