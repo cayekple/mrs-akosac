@@ -665,9 +665,6 @@ export default function App() {
           <p className="text-lg font-semibold mb-2">
             In loving memory of Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)
           </p>
-          <p className="text-sm text-gray-400 mt-2">
-            May her soul rest in perfect peace 🕊️
-          </p>
           <div className="mt-6 flex items-center justify-center gap-2">
             <span className="h-px w-12 bg-gray-600"></span>
             <span className="text-gray-500 text-xs">Forever in our hearts</span>
