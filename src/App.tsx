@@ -174,8 +174,8 @@ export default function App() {
   };
 
   const programItems = [
-    { time: '8:30 AM', title: 'Body Viewing', location: 'AKOSAC\'s residence, Akosac\'s Street near Santiago Bar', icon: '👁️' },
-    { time: '9:30 AM', title: 'Eulogy, Music & Photo Gallery', location: '', icon: '🎵' },
+    { time: '8:00 AM', title: 'Body Viewing', location: 'AKOSAC\'s residence, Akosac\'s Street near Santiago Bar', icon: '👁️' },
+    { time: '10:00 AM', title: 'Memorial Speech, Music & Photo Gallery', location: '', icon: '🎵' },
     { time: '11:00 AM', title: 'Main Service', location: 'AGA Basic School', icon: '🙏' },
     { time: 'Following Service', title: 'Interment', location: '', icon: '🕊️' },
   ];
@@ -309,10 +309,10 @@ export default function App() {
 
               <div className="max-w-2xl mx-auto space-y-3 text-base sm:text-lg text-gray-600 dark:text-gray-400">
                 <p className="hover:text-gray-900 dark:hover:text-gray-200 transition-colors">
-                  <span className="font-semibold">Body Viewing:</span> AKOSAC's residence, Akosac's Street near Santiago Bar at 8:30 AM
+                  <span className="font-semibold">Body Viewing:</span> AKOSAC's residence, Akosac's Street near Santiago Bar at 8:00 AM
                 </p>
                 <p className="hover:text-gray-900 dark:hover:text-gray-200 transition-colors">
-                  <span className="font-semibold">Eulogy, Music & Photo Gallery:</span> 9:30 AM
+                  <span className="font-semibold">Memorial Speech, Music & Photo Gallery:</span> 10:00 AM
                 </p>
               </div>
             </div>
