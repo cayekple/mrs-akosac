@@ -352,37 +352,79 @@ export default function App() {
                 </div>
                 {/* Desktop: Full text visible */}
                 <div className="hidden md:block prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 leading-relaxed space-y-6 text-justify">
-                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm">
+                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4">
+                    <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">Obituary of Mrs. Harriet Atuahene Sarkodie (Auntie Akwaley)</h4>
                     <p>
-                      Mrs Harriet Atuahene Sarkodie, affectionately known as Mrs AKOSAC and Auntie Akweley, was a remarkable woman whose life touched the hearts of many. Her warmth, kindness, and unwavering dedication to her family and community made her a beloved figure to all who knew her.
+                      Mrs. Harriet Atuahene Sarkodie, affectionately known as Auntie Akwaley, was born on 15th February 1953 at Kukrantumi in the Eastern Region of Ghana, to Obaapayin Akosua Adgyeiwaa and Mr. Kwesi Larbi. Her father hailed from James Town with Ga roots, while her mother was Akyem from Kukrantumi.
+                    </p>
+                    <p>
+                      She was born into a large, vibrant family of nine siblings and shared a unique bond with her twin, popularly known as Auntie Akooko. Auntie Akwaley and her twin sister were inseparable companions through life's early journey, embodying a deep connection that only twins can share. Sadly, her twin sister passed away some years ago—a loss she carried with quiet strength and grace. Over time, she also lost many of her siblings, and at the time of her passing, only one sister remained. Auntie Akwaley and her twin sister were the last of the nine siblings, marking the close of a remarkable family generation.
+                    </p>
+                    <p>
+                      From an early age, Harriet distinguished herself through diligence and excellence. She began her basic education in Kukrantumi and completed her middle school education in 1968. Despite being the youngest in her class, she consistently excelled academically and earned the admiration of both peers and teachers. She served as Girls' Prefect at both primary and middle school levels and was widely recognised for her discipline, neatness, and outstanding performance.
+                    </p>
+                    <p>
+                      Her academic brilliance earned her several scholarships to further her education. However, due to circumstances beyond her control, she was unable to take advantage of these opportunities. Undeterred, Harriet displayed remarkable resilience and entrepreneurial spirit by venturing into a small-scale business, where she found success through sheer hard work and determination.
+                    </p>
+                    <p>
+                      In January 1970, Harriet married the love of her life, Mr. Eric Kofi Atuahene Sarkodie (of blessed memory). Their union, which spanned 53 years, was built on love, mutual respect, and unwavering partnership. Together, they were blessed with four children, though their first child sadly passed shortly after birth. They lovingly raised three children: Abigail Abena Kyeraa Sarkodie Ansah, Kofi Atuahene Sarkodie, and Nana Yaa Asarewaa Sarkodie Nunoo.
+                    </p>
+                    <p>
+                      Harriet was a pillar of strength in her family and played a central role in the success of their business ventures. In March 1985, together with her husband, she established a licensed chemical shop in Obuasi, which later became a pharmacy in 1993. Through her intelligence, dedication, and tireless work ethic, she made the business flourish and become one of the town's leading pharmacies.
                     </p>
                   </div>
-                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm">
+                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4">
+                    <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">Her Spiritual Journey</h4>
                     <p>
-                      Born with a spirit of generosity and compassion, Mrs AKOSAC lived her life with grace and dignity. She was a pillar of strength for her family, always ready with words of wisdom and encouragement. Her home was a place of welcome, where friends and family gathered to share in her hospitality and love.
+                      Though not born into a family of Jehovah's Witnesses, Harriet's spiritual path began when her mother embraced Bible truth through her study with the Witnesses. Harriet followed this path with conviction and, on 8th December 1967, symbolised her dedication to Jehovah through water baptism. She remained a faithful and devoted servant of Jehovah throughout her life until her peaceful passing on 24th December 2025.
+                    </p>
+                    <p>
+                      Auntie Akwaley was widely known for her warm hospitality and kindness, especially toward travelling overseers and full-time servants. Her home was always open, offering comfort, nourishment, and a sense of belonging to all who visited. Together with her husband, she supported preaching activities in areas of greater need, particularly in Aduaneɛdɛ, where they served diligently for 17 years. Through her efforts, many came to know and dedicate their lives to Jehovah.
+                    </p>
+                    <p>
+                      She was an exemplary figure to many—especially young ones and married couples—demonstrating through her life what it meant to love, serve, and remain steadfast in faith.
                     </p>
                   </div>
-                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm">
+                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4">
+                    <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">A Devoted Wife, Loving Mother, and Compassionate Caregiver</h4>
                     <p>
-                      As a mother and grandmother, she was devoted and nurturing, investing time and energy into ensuring the well-being and success of her children and grandchildren. Her legacy lives on through the values she instilled in them—hard work, integrity, kindness, and faith.
+                      Harriet was a remarkable woman whose life was defined by love, strength, and selflessness. As a wife, she stood firmly beside her husband through every season, offering unwavering support and companionship. Their home was a haven of peace, built on trust, respect, and deep affection.
+                    </p>
+                    <p>
+                      As a mother, Harriet was nurturing, sacrificial, and deeply devoted. She worked tirelessly to ensure the well-being and happiness of her children, always placing their needs above her own. Her guidance, wisdom, and unconditional love shaped their lives in profound ways.
+                    </p>
+                    <p>
+                      Beyond her immediate family, Harriet's heart extended to many others. Following the tragic loss of her twin sister, she lovingly took her sister's children and raised them herself—an extraordinary testament to her boundless compassion and generosity. Indeed, she became a mother to many, and her influence reached far beyond her household.
+                    </p>
+                    <p>
+                      Such was her impact that many friends chose to name their children after her—a lasting tribute to the love and respect she inspired.
                     </p>
                   </div>
-                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm">
+                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4">
+                    <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">A Life of Warmth and Generosity</h4>
                     <p>
-                      Mrs AKOSAC was also deeply involved in her community, contributing to its development and well-being. She was known for her generous spirit, always willing to lend a helping hand to those in need. Her contributions will be remembered for generations to come.
+                      Auntie Akwaley had a special gift for bringing people together, often expressed through her love of cooking. Her meals were not merely food but heartfelt expressions of care, warmth, and unity. She found joy in serving others, and her kindness touched countless lives, both near and far.
                     </p>
                   </div>
-                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm">
+                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4">
+                    <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">A Blessed Hope</h4>
                     <p>
-                      Though she has departed from this world, her memory remains alive in the hearts of all who knew and loved her. We celebrate her life, honor her legacy, and commit to carrying forward the values she exemplified.
+                      Though our hearts are heavy with grief, we find comfort in the sure hope of the resurrection—a promise that sustains us in this time of loss.
                     </p>
+                    <p>
+                      Harriet's legacy of love, faith, and kindness will continue to live on in all who knew her.
+                    </p>
+                    <p>
+                      She has fought the fine fight, she has finished the race, she has kept the faith.
+                    </p>
+                    <p className="font-semibold text-gray-900 dark:text-white">Forever in our hearts.</p>
                   </div>
                 </div>
                 {/* Mobile: Preview with Read More button */}
                 <div className="md:hidden">
                   <div className="prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 leading-relaxed space-y-4 text-justify bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm">
                     <p>
-                      Mrs Harriet Atuahene Sarkodie, affectionately known as Mrs AKOSAC and Auntie Akweley, was a remarkable woman whose life touched the hearts of many...
+                      Mrs. Harriet Atuahene Sarkodie, affectionately known as Auntie Akwaley, was born on 15th February 1953 at Kukrantumi in the Eastern Region of Ghana...
                     </p>
                   </div>
                   <button
@@ -572,21 +614,63 @@ export default function App() {
               In Loving Memory
             </h3>
             <div className="prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 leading-relaxed space-y-6 text-justify">
+              <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">Obituary of Mrs. Harriet Atuahene Sarkodie (Auntie Akwaley)</h4>
               <p>
-                Mrs Harriet Atuahene Sarkodie, affectionately known as Mrs AKOSAC and Auntie Akweley, was a remarkable woman whose life touched the hearts of many. Her warmth, kindness, and unwavering dedication to her family and community made her a beloved figure to all who knew her.
+                Mrs. Harriet Atuahene Sarkodie, affectionately known as Auntie Akwaley, was born on 15th February 1953 at Kukrantumi in the Eastern Region of Ghana, to Obaapayin Akosua Adgyeiwaa and Mr. Kwesi Larbi. Her father hailed from James Town with Ga roots, while her mother was Akyem from Kukrantumi.
               </p>
               <p>
-                Born with a spirit of generosity and compassion, Mrs AKOSAC lived her life with grace and dignity. She was a pillar of strength for her family, always ready with words of wisdom and encouragement. Her home was a place of welcome, where friends and family gathered to share in her hospitality and love.
+                She was born into a large, vibrant family of nine siblings and shared a unique bond with her twin, popularly known as Auntie Akooko. Auntie Akwaley and her twin sister were inseparable companions through life's early journey, embodying a deep connection that only twins can share. Sadly, her twin sister passed away some years ago—a loss she carried with quiet strength and grace. Over time, she also lost many of her siblings, and at the time of her passing, only one sister remained. Auntie Akwaley and her twin sister were the last of the nine siblings, marking the close of a remarkable family generation.
               </p>
               <p>
-                As a mother and grandmother, she was devoted and nurturing, investing time and energy into ensuring the well-being and success of her children and grandchildren. Her legacy lives on through the values she instilled in them—hard work, integrity, kindness, and faith.
+                From an early age, Harriet distinguished herself through diligence and excellence. She began her basic education in Kukrantumi and completed her middle school education in 1968. Despite being the youngest in her class, she consistently excelled academically and earned the admiration of both peers and teachers. She served as Girls' Prefect at both primary and middle school levels and was widely recognised for her discipline, neatness, and outstanding performance.
               </p>
               <p>
-                Mrs AKOSAC was also deeply involved in her community, contributing to its development and well-being. She was known for her generous spirit, always willing to lend a helping hand to those in need. Her contributions will be remembered for generations to come.
+                Her academic brilliance earned her several scholarships to further her education. However, due to circumstances beyond her control, she was unable to take advantage of these opportunities. Undeterred, Harriet displayed remarkable resilience and entrepreneurial spirit by venturing into a small-scale business, where she found success through sheer hard work and determination.
               </p>
               <p>
-                Though she has departed from this world, her memory remains alive in the hearts of all who knew and loved her. We celebrate her life, honor her legacy, and commit to carrying forward the values she exemplified.
+                In January 1970, Harriet married the love of her life, Mr. Eric Kofi Atuahene Sarkodie (of blessed memory). Their union, which spanned 53 years, was built on love, mutual respect, and unwavering partnership. Together, they were blessed with four children, though their first child sadly passed shortly after birth. They lovingly raised three children: Abigail Abena Kyeraa Sarkodie Ansah, Kofi Atuahene Sarkodie, and Nana Yaa Asarewaa Sarkodie Nunoo.
               </p>
+              <p>
+                Harriet was a pillar of strength in her family and played a central role in the success of their business ventures. In March 1985, together with her husband, she established a licensed chemical shop in Obuasi, which later became a pharmacy in 1993. Through her intelligence, dedication, and tireless work ethic, she made the business flourish and become one of the town's leading pharmacies.
+              </p>
+              <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose mt-6">Her Spiritual Journey</h4>
+              <p>
+                Though not born into a family of Jehovah's Witnesses, Harriet's spiritual path began when her mother embraced Bible truth through her study with the Witnesses. Harriet followed this path with conviction and, on 8th December 1967, symbolised her dedication to Jehovah through water baptism. She remained a faithful and devoted servant of Jehovah throughout her life until her peaceful passing on 24th December 2025.
+              </p>
+              <p>
+                Auntie Akwaley was widely known for her warm hospitality and kindness, especially toward travelling overseers and full-time servants. Her home was always open, offering comfort, nourishment, and a sense of belonging to all who visited. Together with her husband, she supported preaching activities in areas of greater need, particularly in Aduaneɛdɛ, where they served diligently for 17 years. Through her efforts, many came to know and dedicate their lives to Jehovah.
+              </p>
+              <p>
+                She was an exemplary figure to many—especially young ones and married couples—demonstrating through her life what it meant to love, serve, and remain steadfast in faith.
+              </p>
+              <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose mt-6">A Devoted Wife, Loving Mother, and Compassionate Caregiver</h4>
+              <p>
+                Harriet was a remarkable woman whose life was defined by love, strength, and selflessness. As a wife, she stood firmly beside her husband through every season, offering unwavering support and companionship. Their home was a haven of peace, built on trust, respect, and deep affection.
+              </p>
+              <p>
+                As a mother, Harriet was nurturing, sacrificial, and deeply devoted. She worked tirelessly to ensure the well-being and happiness of her children, always placing their needs above her own. Her guidance, wisdom, and unconditional love shaped their lives in profound ways.
+              </p>
+              <p>
+                Beyond her immediate family, Harriet's heart extended to many others. Following the tragic loss of her twin sister, she lovingly took her sister's children and raised them herself—an extraordinary testament to her boundless compassion and generosity. Indeed, she became a mother to many, and her influence reached far beyond her household.
+              </p>
+              <p>
+                Such was her impact that many friends chose to name their children after her—a lasting tribute to the love and respect she inspired.
+              </p>
+              <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose mt-6">A Life of Warmth and Generosity</h4>
+              <p>
+                Auntie Akwaley had a special gift for bringing people together, often expressed through her love of cooking. Her meals were not merely food but heartfelt expressions of care, warmth, and unity. She found joy in serving others, and her kindness touched countless lives, both near and far.
+              </p>
+              <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose mt-6">A Blessed Hope</h4>
+              <p>
+                Though our hearts are heavy with grief, we find comfort in the sure hope of the resurrection—a promise that sustains us in this time of loss.
+              </p>
+              <p>
+                Harriet's legacy of love, faith, and kindness will continue to live on in all who knew her.
+              </p>
+              <p>
+                She has fought the fine fight, she has finished the race, she has kept the faith.
+              </p>
+              <p className="font-semibold text-gray-900 dark:text-white">Forever in our hearts.</p>
             </div>
           </div>
         </div>
