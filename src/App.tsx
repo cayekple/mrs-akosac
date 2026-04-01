@@ -176,8 +176,7 @@ export default function App() {
   const programItems = [
     { time: '8:00 AM', title: 'Body Viewing', location: 'AKOSAC\'s residence, Akosac\'s Street near Santiago Bar', icon: '👁️' },
     { time: '10:00 AM', title: 'Memorial Speech, Music & Photo Gallery', location: '', icon: '🎵' },
-    { time: '11:00 AM', title: 'Main Service', location: 'AGA Basic School', icon: '🙏' },
-    { time: 'Following Service', title: 'Interment', location: '', icon: '🕊️' },
+
   ];
 
   return (
@@ -303,7 +302,7 @@ export default function App() {
                 <div className="hover-lift bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-800 animate-slide-up stagger-3">
                   <div className="text-4xl mb-3">🕐</div>
                   <h3 className="font-bold text-gray-900 dark:text-white mb-2">Time</h3>
-                  <p className="text-gray-600 dark:text-gray-400">11:00 AM</p>
+                  <p className="text-gray-600 dark:text-gray-400">8:00 AM</p>
                 </div>
               </div>
 
@@ -523,12 +522,7 @@ export default function App() {
                   <p className="font-bold text-xl text-gray-900 dark:text-white mb-2">Opening Song</p>
                   <p className="text-gray-600 dark:text-gray-400">To be announced</p>
                 </div>
-                <div className="text-center p-6 bg-purple-50 dark:bg-purple-900/20 rounded-xl hover-lift border-2 border-transparent hover:border-purple-400 transition-all duration-300 animate-slide-up stagger-2">
-                  <div className="text-5xl mb-4 animate-float">🎼</div>
-                  <p className="font-bold text-xl text-gray-900 dark:text-white mb-2">Musical Tributes</p>
-                  <p className="text-gray-600 dark:text-gray-400">Family and friends</p>
-                </div>
-                <div className="text-center p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl hover-lift border-2 border-transparent hover:border-blue-400 transition-all duration-300 animate-slide-up stagger-3">
+<div className="text-center p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl hover-lift border-2 border-transparent hover:border-blue-400 transition-all duration-300 animate-slide-up stagger-3">
                   <div className="text-5xl mb-4 animate-float">🎶</div>
                   <p className="font-bold text-xl text-gray-900 dark:text-white mb-2">Closing Song</p>
                   <p className="text-gray-600 dark:text-gray-400">To be announced</p>
