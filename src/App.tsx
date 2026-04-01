@@ -181,7 +181,7 @@ export default function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-gray-900 font-sans dark:bg-gray-950 dark:text-white relative overflow-hidden">
+    <div className="min-h-screen bg-white text-gray-900 font-sans dark:bg-gray-950 dark:text-white relative overflow-x-clip">
       {/* Decorative background elements */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-20 right-10 w-96 h-96 bg-blue-100 dark:bg-blue-900/10 rounded-full blur-3xl opacity-30"></div>
