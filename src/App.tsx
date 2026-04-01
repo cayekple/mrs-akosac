@@ -15,7 +15,7 @@ export default function App() {
   const prevFocusRef = useRef<HTMLElement | null>(null);
   const closeBtnRef = useRef<HTMLButtonElement | null>(null);
 
-  const basePath = import.meta.env.PROD ? '/mrs-akosac' : '';
+  const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   const galleryCategories = [
     {
@@ -181,10 +181,15 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans dark:bg-gray-950 dark:text-white relative overflow-x-clip">
-      {/* Decorative background elements */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-20 right-10 w-96 h-96 bg-blue-100 dark:bg-blue-900/10 rounded-full blur-3xl opacity-30"></div>
-        <div className="absolute bottom-20 left-10 w-96 h-96 bg-purple-100 dark:bg-purple-900/10 rounded-full blur-3xl opacity-30"></div>
+      {/* Immersive background image */}
+      <div className="fixed inset-0 pointer-events-none">
+        <img
+          src={`${basePath}/img/1.jpeg`}
+          alt=""
+          aria-hidden="true"
+          className="w-full h-full object-cover object-top"
+        />
+        <div className="absolute inset-0 bg-white/85 dark:bg-gray-950/90"></div>
       </div>
 
       <a href="#mainContent" className="absolute left-[-9999px] focus:left-4 focus:top-4 focus:z-50 focus:bg-white focus:text-gray-900 focus:px-3 focus:py-2 focus:rounded-md focus:shadow">
