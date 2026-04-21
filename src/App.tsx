@@ -30,6 +30,91 @@ export default function App() {
         { src: `${basePath}/img/2.jpeg`, alt: 'In memory of Mrs AKOSAC' },
       ]
     },
+    {
+      title: 'Individual Photos',
+      images: [
+        { src: `${basePath}/img/individual/1a.jpg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/6.jpg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/8.jpg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/9.jpg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/10.jpeg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/11.jpeg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/18.jpeg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/25.jpg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/34.jpeg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/IMG-20251001-WA0000.jpg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/IMG-20251001-WA0008.jpg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/IMG-20251223-WA0000.jpg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/IMG-20251223-WA0015.jpg`, alt: 'Mrs AKOSAC' },
+        { src: `${basePath}/img/individual/IMG-20260302-WA0080.jpg`, alt: 'Mrs AKOSAC' },
+      ]
+    },
+    {
+      title: 'With Husband',
+      images: [
+        { src: `${basePath}/img/husband/h1.jpeg`, alt: 'Mrs AKOSAC with husband' },
+        { src: `${basePath}/img/husband/h2.jpeg`, alt: 'Mrs AKOSAC with husband' },
+        { src: `${basePath}/img/husband/h3.jpeg`, alt: 'Mrs AKOSAC with husband' },
+        { src: `${basePath}/img/husband/h4.jpg`, alt: 'Mrs AKOSAC with husband' },
+        { src: `${basePath}/img/husband/h5.jpg`, alt: 'Mrs AKOSAC with husband' },
+        { src: `${basePath}/img/husband/IMG-20260405-WA0049.jpg`, alt: 'Mrs AKOSAC with husband' },
+        { src: `${basePath}/img/husband/IMG-20260405-WA0050.jpg`, alt: 'Mrs AKOSAC with husband' },
+        { src: `${basePath}/img/husband/IMG-20260405-WA0051.jpg`, alt: 'Mrs AKOSAC with husband' },
+      ]
+    },
+    {
+      title: 'With Children',
+      images: [
+        { src: `${basePath}/img/children/c1.jpeg`, alt: 'Mrs AKOSAC with children' },
+        { src: `${basePath}/img/children/c2.jpg`, alt: 'Mrs AKOSAC with children' },
+        { src: `${basePath}/img/children/c3.jpeg`, alt: 'Mrs AKOSAC with children' },
+      ]
+    },
+    {
+      title: 'With Grandchildren',
+      images: [
+        { src: `${basePath}/img/grandchildren/g1.jpg`, alt: 'Mrs AKOSAC with grandchildren' },
+        { src: `${basePath}/img/grandchildren/g2.jpeg`, alt: 'Mrs AKOSAC with grandchildren' },
+        { src: `${basePath}/img/grandchildren/g3.jpg`, alt: 'Mrs AKOSAC with grandchildren' },
+        { src: `${basePath}/img/grandchildren/g4.jpg`, alt: 'Mrs AKOSAC with grandchildren' },
+        { src: `${basePath}/img/grandchildren/g5.jpg`, alt: 'Mrs AKOSAC with grandchildren' },
+        { src: `${basePath}/img/grandchildren/g6.jpeg`, alt: 'Mrs AKOSAC with grandchildren' },
+      ]
+    },
+    {
+      title: 'With Children & Family',
+      images: [
+        { src: `${basePath}/img/children-family/2.jpg`, alt: 'Mrs AKOSAC with children and family' },
+        { src: `${basePath}/img/children-family/3.jpg`, alt: 'Mrs AKOSAC with children and family' },
+        { src: `${basePath}/img/children-family/n3.jpg`, alt: 'Mrs AKOSAC with children and family' },
+      ]
+    },
+    {
+      title: 'With Family & Friends',
+      images: [
+        { src: `${basePath}/img/family-friends/f1.jpg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/f2.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/4.jpg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/5.jpg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/29.jpg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/IMG-20241231-WA0001.jpg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/IMG-20241231-WA0004.jpg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/IMG-20251223-WA0001.jpg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/IMG-20251223-WA0011.jpg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-17 at 11.05.32.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-17 at 11.06.10.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-18 at 09.05.24.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-18 at 10.49.07.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
+      ]
+    },
+    {
+      title: 'With In-Laws',
+      images: [
+        { src: `${basePath}/img/inlaws/i1.jpeg`, alt: 'Mrs AKOSAC with in-laws' },
+        { src: `${basePath}/img/inlaws/i2.jpeg`, alt: 'Mrs AKOSAC with in-laws' },
+        { src: `${basePath}/img/inlaws/i3.jpeg`, alt: 'Mrs AKOSAC with in-laws' },
+      ]
+    },
   ];
 
   const allImages = galleryCategories.flatMap(cat => cat.images);
@@ -521,16 +606,163 @@ export default function App() {
               <p className="text-center text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-8">
                 Selected songs and musical tributes will be performed during the service to celebrate the life and legacy of Mrs AKOSAC.
               </p>
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl hover-lift border-2 border-transparent hover:border-blue-400 transition-all duration-300 animate-slide-up stagger-1">
-                  <div className="text-5xl mb-4 animate-float">🎵</div>
-                  <p className="font-bold text-xl text-gray-900 dark:text-white mb-2">Opening Song</p>
-                  <p className="text-gray-600 dark:text-gray-400">To be announced</p>
+              <div className="space-y-8">
+                {/* Opening Song Card */}
+                <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl hover-lift border-2 border-transparent hover:border-blue-400 transition-all duration-300 animate-slide-up stagger-1 p-6">
+                  <div className="text-center mb-4">
+                    <div className="text-5xl mb-3 animate-float">🎵</div>
+                    <p className="font-bold text-2xl text-gray-900 dark:text-white mb-1">Opening Song</p>
+                    <p className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">Song 156</p>
+                    <p className="text-xl font-bold text-gray-800 dark:text-gray-200 mb-1">With Eyes of Faith</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 italic">(Psalm 27:13)</p>
+                  </div>
+                  <div className="text-center space-y-3 text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+                    <div>
+                      <p className="font-semibold mb-1">1. Why should I fear the lion?</p>
+                      <p>Why should I fear any foe?</p>
+                      <p>With Jehovah by my side,</p>
+                      <p>I will not run and hide.</p>
+                      <p>My God is with me; this I know.</p>
+                    </div>
+                    <div className="italic pl-4 border-l-2 border-blue-400">
+                      <p className="font-semibold mb-1">(CHORUS)</p>
+                      <p>With eyes of faith,</p>
+                      <p>I see beyond the darkness.</p>
+                      <p>With eyes of faith,</p>
+                      <p>there's nothing more to fear.</p>
+                      <p>With Jehovah, I am strong,</p>
+                      <p>Determined to go on,</p>
+                      <p>Knowing that my God</p>
+                      <p>is always near—</p>
+                      <p>With eyes of faith.</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-1">2. Those faithful ones before us</p>
+                      <p>Lived their lives in loyalty.</p>
+                      <p>By their faith they endured.</p>
+                      <p>Their future is assured.</p>
+                      <p>They'll stand again for all to see.</p>
+                    </div>
+                    <div className="italic pl-4 border-l-2 border-blue-400">
+                      <p className="font-semibold mb-1">(CHORUS)</p>
+                      <p>With eyes of faith,</p>
+                      <p>I see beyond the darkness.</p>
+                      <p>With eyes of faith,</p>
+                      <p>there's nothing more to fear.</p>
+                      <p>With Jehovah, I am strong,</p>
+                      <p>Determined to go on,</p>
+                      <p>Knowing that my God</p>
+                      <p>is always near—</p>
+                      <p>With eyes of faith.</p>
+                    </div>
+                    <div className="italic pl-4 border-l-2 border-purple-400">
+                      <p className="font-semibold mb-1">(BRIDGE)</p>
+                      <p>With eyes of faith,</p>
+                      <p>I can move a mountain.</p>
+                      <p>With eyes of faith,</p>
+                      <p>my hope is sure.</p>
+                      <p>Where would I be</p>
+                      <p>Without the faith</p>
+                      <p>that helps me see</p>
+                      <p>Beyond the trials I endure?</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-1">3. I see the wondrous future</p>
+                      <p>God has in store for me.</p>
+                      <p>I need to be strong.</p>
+                      <p>I know it won't be long</p>
+                      <p>Till Jehovah claims his victory.</p>
+                    </div>
+                    <div className="italic pl-4 border-l-2 border-blue-400">
+                      <p className="font-semibold mb-1">(CHORUS)</p>
+                      <p>With eyes of faith,</p>
+                      <p>I see beyond the darkness.</p>
+                      <p>With eyes of faith,</p>
+                      <p>there's nothing more to fear.</p>
+                      <p>With Jehovah, I am strong,</p>
+                      <p>Determined to go on,</p>
+                      <p>Knowing that my God</p>
+                      <p>is always near—</p>
+                      <p>With eyes of faith,</p>
+                      <p>With eyes of faith.</p>
+                    </div>
+                  </div>
                 </div>
-<div className="text-center p-6 bg-blue-50 dark:bg-blue-900/20 rounded-xl hover-lift border-2 border-transparent hover:border-blue-400 transition-all duration-300 animate-slide-up stagger-3">
-                  <div className="text-5xl mb-4 animate-float">🎶</div>
-                  <p className="font-bold text-xl text-gray-900 dark:text-white mb-2">Closing Song</p>
-                  <p className="text-gray-600 dark:text-gray-400">To be announced</p>
+
+                {/* Closing Song Card */}
+                <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl hover-lift border-2 border-transparent hover:border-blue-400 transition-all duration-300 animate-slide-up stagger-2 p-6">
+                  <div className="text-center mb-4">
+                    <div className="text-5xl mb-3 animate-float">🎶</div>
+                    <p className="font-bold text-2xl text-gray-900 dark:text-white mb-1">Closing Song</p>
+                    <p className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-2">Song 158</p>
+                    <p className="text-xl font-bold text-gray-800 dark:text-gray-200 mb-1">"It Will Not Be Late!"</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 italic">(Habakkuk 2:3)</p>
+                  </div>
+                  <div className="text-center space-y-3 text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+                    <div>
+                      <p className="font-semibold mb-1">1. Beauty fills the earth,</p>
+                      <p>wonder fills our mind—</p>
+                      <p>The work of your hands</p>
+                      <p>so patiently designed.</p>
+                      <p>Though the world may change,</p>
+                      <p>you remain the same.</p>
+                      <p>You patiently wait</p>
+                      <p>to make it new again.</p>
+                    </div>
+                    <div className="italic pl-4 border-l-2 border-blue-400">
+                      <p className="font-semibold mb-1">(CHORUS)</p>
+                      <p>Father, we long to see</p>
+                      <p>Paradise come to be.</p>
+                      <p>Give us the patience to wait.</p>
+                      <p>We know your day will come,</p>
+                      <p>sure as the rising sun.</p>
+                      <p>No matter how long it takes,</p>
+                      <p>"It will not be late!"</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-1">2. Faithfully we wait</p>
+                      <p>for the dead to rise.</p>
+                      <p>Jehovah, you yearn</p>
+                      <p>to bring them back to life.</p>
+                      <p>Father, we well know</p>
+                      <p>how you loved them so.</p>
+                      <p>Instill in our hearts</p>
+                      <p>the patience you have shown.</p>
+                    </div>
+                    <div className="italic pl-4 border-l-2 border-blue-400">
+                      <p className="font-semibold mb-1">(CHORUS)</p>
+                      <p>Father, we long to see</p>
+                      <p>Paradise come to be.</p>
+                      <p>Give us the patience to wait.</p>
+                      <p>We know your day will come,</p>
+                      <p>sure as the rising sun.</p>
+                      <p>No matter how long it takes,</p>
+                      <p>"It will not be late!"</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold mb-1">3. Patiently you search;</p>
+                      <p>honest hearts you find.</p>
+                      <p>You heal them with hope</p>
+                      <p>and long to give them life.</p>
+                      <p>Working by your side,</p>
+                      <p>sharing what is true,</p>
+                      <p>We use our time well.</p>
+                      <p>It draws us close to you.</p>
+                    </div>
+                    <div className="italic pl-4 border-l-2 border-blue-400">
+                      <p className="font-semibold mb-1">(CHORUS)</p>
+                      <p>Father, we long to see</p>
+                      <p>Paradise come to be.</p>
+                      <p>Give us the patience to wait.</p>
+                      <p>We know your day will come,</p>
+                      <p>sure as the rising sun.</p>
+                      <p>No matter how long it takes,</p>
+                      <p>"It will not be late!"</p>
+                    </div>
+                    <div className="mt-2">
+                      <p className="italic">Father, please help us to wait!</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
