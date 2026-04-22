@@ -63,7 +63,7 @@ export default function App() {
       images: [
         { src: `${basePath}/img/children/c1.jpeg`, alt: 'Mrs AKOSAC with Abigail Abena Kyeraa Sarkodie Ansah', caption: 'Abigail Abena Kyeraa Sarkodie Ansah' },
         { src: `${basePath}/img/children/c2.jpg`, alt: 'Mrs AKOSAC with Kofi Atuahene Sarkodie', caption: 'Kofi Atuahene Sarkodie' },
-        { src: `${basePath}/img/children/c3.jpeg`, alt: 'Mrs AKOSAC with Nana Yaa Asarewaa Sarkodie', caption: 'Nana Yaa Asarewaa Sarkodie' },
+        { src: `${basePath}/img/children/c3.jpeg`, alt: 'Mrs AKOSAC with Nana Yaa Asarewaa Sarkodie Nunoo', caption: 'Nana Yaa Asarewaa Sarkodie Nunoo' },
       ]
     },
     {
@@ -476,7 +476,7 @@ export default function App() {
                       Her academic brilliance earned her several scholarships to further her education. However, due to circumstances beyond her control, she was unable to take advantage of these opportunities. Undeterred, Harriet displayed remarkable resilience and entrepreneurial spirit by venturing into a small-scale business, where she found success through sheer hard work and determination.
                     </p>
                     <p>
-                      In January 1970, Harriet married the love of her life, Mr. Eric Kofi Atuahene Sarkodie (of blessed memory). Their union, which spanned 53 years, was built on love, mutual respect, and unwavering partnership. Together, they were blessed with four children, though their first child sadly passed shortly after birth. They lovingly raised three children: Abigail Abena Kyeraa Sarkodie Ansah, Kofi Atuahene Sarkodie, and Nana Yaa Asarewaa Sarkodie Nunoo.
+                      In January 1970, Harriet married the love of her life, Mr. Eric Kofi Atuahene Sarkodie (of blessed memory). Their union, which spanned 53 years, was built on love, mutual respect, and unwavering partnership. Together, they were blessed with four children, though their first child sadly passed shortly after birth. They lovingly raised three children: Abigail Abena Kyeraa Sarkodie Ansah, Kofi Atuahene Sarkodie, and Nana Yaa Asarewaa Sarkodie Nunoo Nunoo.
                     </p>
                     <p>
                       Harriet was a pillar of strength in her family and played a central role in the success of their business ventures. In March 1985, together with her husband, she established a licensed chemical shop in Obuasi, which later became a pharmacy in 1993. Through her intelligence, dedication, and tireless work ethic, she made the business flourish and become one of the town's leading pharmacies.
@@ -880,7 +880,7 @@ export default function App() {
                 Her academic brilliance earned her several scholarships to further her education. However, due to circumstances beyond her control, she was unable to take advantage of these opportunities. Undeterred, Harriet displayed remarkable resilience and entrepreneurial spirit by venturing into a small-scale business, where she found success through sheer hard work and determination.
               </p>
               <p>
-                In January 1970, Harriet married the love of her life, Mr. Eric Kofi Atuahene Sarkodie (of blessed memory). Their union, which spanned 53 years, was built on love, mutual respect, and unwavering partnership. Together, they were blessed with four children, though their first child sadly passed shortly after birth. They lovingly raised three children: Abigail Abena Kyeraa Sarkodie Ansah, Kofi Atuahene Sarkodie, and Nana Yaa Asarewaa Sarkodie Nunoo.
+                In January 1970, Harriet married the love of her life, Mr. Eric Kofi Atuahene Sarkodie (of blessed memory). Their union, which spanned 53 years, was built on love, mutual respect, and unwavering partnership. Together, they were blessed with four children, though their first child sadly passed shortly after birth. They lovingly raised three children: Abigail Abena Kyeraa Sarkodie Ansah, Kofi Atuahene Sarkodie, and Nana Yaa Asarewaa Sarkodie Nunoo Nunoo.
               </p>
               <p>
                 Harriet was a pillar of strength in her family and played a central role in the success of their business ventures. In March 1985, together with her husband, she established a licensed chemical shop in Obuasi, which later became a pharmacy in 1993. Through her intelligence, dedication, and tireless work ethic, she made the business flourish and become one of the town's leading pharmacies.
