@@ -9,6 +9,7 @@ export default function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [bioModalOpen, setBioModalOpen] = useState(false);
+  const [bioExpanded, setBioExpanded] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
@@ -22,31 +23,26 @@ export default function App() {
       title: 'Picture of the Deceased',
       images: [
         { src: `${basePath}/img/1.jpeg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/1a.jpg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/6.jpg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/8.jpg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/9.jpg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/10.jpeg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/11.jpeg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/18.jpeg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/25.jpg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/34.jpeg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/IMG-20251001-WA0000.jpg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/IMG-20251001-WA0008.jpg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/IMG-20251223-WA0000.jpg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/IMG-20251223-WA0015.jpg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
+        { src: `${basePath}/img/individual/IMG-20260302-WA0080.jpg`, alt: 'Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)' },
       ]
     },
     {
       title: 'Memorial Gallery',
       images: [
         { src: `${basePath}/img/2.jpeg`, alt: 'In memory of Mrs AKOSAC' },
-      ]
-    },
-    {
-      title: 'Individual Photos',
-      images: [
-        { src: `${basePath}/img/individual/1a.jpg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/6.jpg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/8.jpg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/9.jpg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/10.jpeg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/11.jpeg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/18.jpeg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/25.jpg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/34.jpeg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/IMG-20251001-WA0000.jpg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/IMG-20251001-WA0008.jpg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/IMG-20251223-WA0000.jpg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/IMG-20251223-WA0015.jpg`, alt: 'Mrs AKOSAC' },
-        { src: `${basePath}/img/individual/IMG-20260302-WA0080.jpg`, alt: 'Mrs AKOSAC' },
       ]
     },
     {
@@ -65,9 +61,9 @@ export default function App() {
     {
       title: 'With Children',
       images: [
-        { src: `${basePath}/img/children/c1.jpeg`, alt: 'Mrs AKOSAC with children' },
-        { src: `${basePath}/img/children/c2.jpg`, alt: 'Mrs AKOSAC with children' },
-        { src: `${basePath}/img/children/c3.jpeg`, alt: 'Mrs AKOSAC with children' },
+        { src: `${basePath}/img/children/c1.jpeg`, alt: 'Mrs AKOSAC with Abigail Abena Kyeraa Sarkodie Ansah', caption: 'Abigail Abena Kyeraa Sarkodie Ansah' },
+        { src: `${basePath}/img/children/c2.jpg`, alt: 'Mrs AKOSAC with Kofi Atuahene Sarkodie', caption: 'Kofi Atuahene Sarkodie' },
+        { src: `${basePath}/img/children/c3.jpeg`, alt: 'Mrs AKOSAC with Nana Yaa Asarewaa Sarkodie', caption: 'Nana Yaa Asarewaa Sarkodie' },
       ]
     },
     {
@@ -325,43 +321,82 @@ export default function App() {
         {/* Hero and Biography Combined Section */}
         <section id="home" className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 relative">
           <div className="max-w-7xl mx-auto">
-            {/* Header */}
-            <div className="text-center mb-16 animate-fade-in">
-              <div className="inline-block mb-6">
-                <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 text-gray-900 dark:text-white tracking-tight hover:scale-105 transition-transform duration-300">
-                  Funeral Programme
-                </h1>
-                <div className="h-1 w-full bg-blue-500 dark:bg-blue-400 mx-auto mb-6 rounded-full"></div>
+            {/* Portfolio Hero */}
+            <div className="mb-20 animate-fade-in">
+              {/* Portrait + Name Grid */}
+              <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center mb-14">
+                {/* Portrait */}
+                <div className="flex justify-center md:justify-end animate-slide-in-left">
+                  <div className="relative">
+                    <div
+                      className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-full overflow-hidden ring-8 ring-blue-200 dark:ring-blue-800 shadow-2xl hover-glow transition-all duration-500"
+                      style={{
+                        transform: `perspective(1000px) rotateX(${mousePosition.y * 0.03}deg) rotateY(${mousePosition.x * 0.03}deg)`
+                      }}
+                    >
+                      <img
+                        src={`${basePath}/img/1.jpeg`}
+                        alt="Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)"
+                        className="w-full h-full object-cover object-top"
+                      />
+                    </div>
+                    <div className="absolute -inset-4 rounded-full border-2 border-blue-300/20 dark:border-blue-600/20 animate-float pointer-events-none"></div>
+                  </div>
+                </div>
+
+                {/* Name & Info */}
+                <div className="text-center md:text-left animate-slide-in-right">
+                  <p className="text-blue-600 dark:text-blue-400 font-semibold tracking-widest uppercase text-sm mb-4 animate-fade-in">
+                    In Loving Memory
+                  </p>
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-2 leading-tight tracking-tight animate-slide-up stagger-1">
+                    Mrs Harriet<br className="hidden sm:block" /> Atuahene Sarkodie
+                  </h1>
+                  <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-400 font-light mb-1 animate-slide-up stagger-2">
+                    (Mrs AKOSAC)
+                  </p>
+                  <p className="text-lg text-gray-500 dark:text-gray-500 italic mb-6 animate-slide-up stagger-3">
+                    aka Auntie Akweley
+                  </p>
+
+                  <div className="inline-flex items-center gap-3 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-full px-6 py-2.5 text-blue-700 dark:text-blue-300 font-medium mb-8 animate-scale-in">
+                    <span>15 Feb 1953</span>
+                    <div className="w-1.5 h-1.5 rounded-full bg-blue-400"></div>
+                    <span>24 Dec 2025</span>
+                  </div>
+
+                  <div className="flex flex-wrap gap-3 justify-center md:justify-start mb-8">
+                    {['72 Years of Life', '53 Years of Marriage', 'Devoted Mother', 'Faithful Servant'].map(tag => (
+                      <span key={tag} className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full px-4 py-1.5 text-sm text-gray-700 dark:text-gray-300 shadow-sm hover-lift">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+
+                  <p className="text-lg text-gray-600 dark:text-gray-400 italic leading-relaxed max-w-lg mx-auto md:mx-0">
+                    &quot;A loving mother, devoted grandmother, and cherished member of the community&quot;
+                  </p>
+                </div>
               </div>
 
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-4 text-gray-800 dark:text-gray-200 animate-slide-up stagger-1">
-                Mrs Harriet Atuahene Sarkodie
-              </h2>
-              <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-400 font-light tracking-wide mb-2 animate-slide-up stagger-2">
-                (Mrs AKOSAC)
-              </p>
-              <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 font-light italic mb-8 animate-slide-up stagger-3">
-                aka Auntie Akweley
-              </p>
-
               {/* Countdown Timer */}
-              <div className="max-w-4xl mx-auto mb-8 animate-bounce-in">
+              <div className="max-w-3xl mx-auto mb-8 animate-bounce-in">
                 <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-6 border-2 border-blue-200 dark:border-blue-800">
-                  <h3 className="text-lg font-semibold mb-4 text-gray-700 dark:text-gray-300">Time Until Service</h3>
+                  <h3 className="text-center text-lg font-semibold mb-4 text-gray-700 dark:text-gray-300">Time Until Service</h3>
                   <div className="grid grid-cols-4 gap-4">
-                    <div className="hover-lift bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4">
+                    <div className="hover-lift bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4 text-center">
                       <div className="text-3xl sm:text-4xl font-bold text-blue-600 dark:text-blue-400">{countdown.days}</div>
                       <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">Days</div>
                     </div>
-                    <div className="hover-lift bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4">
+                    <div className="hover-lift bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4 text-center">
                       <div className="text-3xl sm:text-4xl font-bold text-blue-600 dark:text-blue-400">{countdown.hours}</div>
                       <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">Hours</div>
                     </div>
-                    <div className="hover-lift bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4">
+                    <div className="hover-lift bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4 text-center">
                       <div className="text-3xl sm:text-4xl font-bold text-blue-600 dark:text-blue-400">{countdown.minutes}</div>
                       <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">Minutes</div>
                     </div>
-                    <div className="hover-lift bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4">
+                    <div className="hover-lift bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4 text-center">
                       <div className="text-3xl sm:text-4xl font-bold text-blue-600 dark:text-blue-400">{countdown.seconds}</div>
                       <div className="text-sm text-gray-600 dark:text-gray-400 mt-1">Seconds</div>
                     </div>
@@ -396,7 +431,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="max-w-2xl mx-auto space-y-3 text-base sm:text-lg text-gray-600 dark:text-gray-400">
+              <div className="max-w-2xl mx-auto space-y-3 text-base sm:text-lg text-gray-600 dark:text-gray-400 text-center">
                 <p className="hover:text-gray-900 dark:hover:text-gray-200 transition-colors">
                   <span className="font-semibold">Body Viewing:</span> AKOSAC's residence, Akosac's Street near Santiago Bar at 8:00 AM
                 </p>
@@ -406,48 +441,33 @@ export default function App() {
               </div>
             </div>
 
-            {/* Main Content Grid */}
-            <div className="grid md:grid-cols-[420px_1fr] gap-10 md:gap-16 lg:gap-20 items-start">
-              {/* Left Column - Image */}
-              <div className="mx-auto md:mx-0 md:sticky md:top-24 animate-slide-in-left">
-                <div className="w-full max-w-md">
-                  <div
-                    className="relative overflow-hidden rounded-2xl shadow-2xl ring-4 ring-blue-200 dark:ring-blue-800 hover-glow transition-all duration-500 hover:scale-105"
-                    style={{
-                      transform: `perspective(1000px) rotateX(${mousePosition.y * 0.05}deg) rotateY(${mousePosition.x * 0.05}deg)`
-                    }}
-                  >
-                    <img
-                      src={`${basePath}/img/1.jpeg`}
-                      alt="Mrs Harriet Atuahene Sarkodie (Mrs AKOSAC)"
-                      className="w-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-black/0 hover:bg-black/10 transition-all duration-300"></div>
-                  </div>
-                  <p className="text-base sm:text-lg italic text-gray-700 dark:text-gray-300 mt-8 text-center leading-relaxed px-4 animate-fade-in">
-                    &quot;A loving mother, devoted grandmother, and cherished member of the community&quot;
-                  </p>
-                </div>
+            {/* Biography Section */}
+            <div className="max-w-4xl mx-auto mb-20 animate-fade-in">
+              <div className="flex items-center gap-3 mb-8">
+                <div className="h-1 w-12 bg-blue-500 rounded-full"></div>
+                <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">
+                  In Loving Memory
+                </h3>
+                <div className="h-1 flex-1 bg-blue-500 rounded-full"></div>
               </div>
 
-              {/* Right Column - Biography */}
-              <div className="animate-slide-in-right">
-                <div className="flex items-center gap-3 mb-8">
-                  <div className="h-1 w-12 bg-blue-500 rounded-full"></div>
-                  <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">
-                    In Loving Memory
-                  </h3>
-                  <div className="h-1 flex-1 bg-blue-500 rounded-full"></div>
-                </div>
-                {/* Desktop: Full text visible */}
-                <div className="hidden md:block prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 leading-relaxed space-y-6 text-justify">
-                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4">
-                    <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">Obituary of Mrs. Harriet Atuahene Sarkodie (Auntie Akwaley)</h4>
+              {/* Preview — always visible */}
+              <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed text-justify mb-4">
+                <h4 className="text-xl font-bold text-gray-900 dark:text-white">Obituary of Mrs. Harriet Atuahene Sarkodie (Auntie Akwaley)</h4>
+                <p>
+                  Mrs. Harriet Atuahene Sarkodie, affectionately known as Auntie Akwaley, was born on 15th February 1953 at Kukrantumi in the Eastern Region of Ghana, to Obaapayin Akosua Adgyeiwaa and Mr. Kwesi Larbi. Her father hailed from James Town with Ga roots, while her mother was Akyem from Kukrantumi.
+                </p>
+                <p>
+                  She was born into a large, vibrant family of nine siblings and shared a unique bond with her twin, popularly known as Auntie Akooko. Auntie Akwaley and her twin sister were inseparable companions through life's early journey, embodying a deep connection that only twins can share. Sadly, her twin sister passed away some years ago—a loss she carried with quiet strength and grace.
+                </p>
+              </div>
+
+              {/* Expandable content */}
+              {bioExpanded && (
+                <div className="space-y-4 animate-fade-in mb-4">
+                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
                     <p>
-                      Mrs. Harriet Atuahene Sarkodie, affectionately known as Auntie Akwaley, was born on 15th February 1953 at Kukrantumi in the Eastern Region of Ghana, to Obaapayin Akosua Adgyeiwaa and Mr. Kwesi Larbi. Her father hailed from James Town with Ga roots, while her mother was Akyem from Kukrantumi.
-                    </p>
-                    <p>
-                      She was born into a large, vibrant family of nine siblings and shared a unique bond with her twin, popularly known as Auntie Akooko. Auntie Akwaley and her twin sister were inseparable companions through life's early journey, embodying a deep connection that only twins can share. Sadly, her twin sister passed away some years ago—a loss she carried with quiet strength and grace. Over time, she also lost many of her siblings, and at the time of her passing, only one sister remained. Auntie Akwaley and her twin sister were the last of the nine siblings, marking the close of a remarkable family generation.
+                      Over time, she also lost many of her siblings, and at the time of her passing, only one sister remained. Auntie Akwaley and her twin sister were the last of the nine siblings, marking the close of a remarkable family generation.
                     </p>
                     <p>
                       From an early age, Harriet distinguished herself through diligence and excellence. She began her basic education in Kukrantumi and completed her middle school education in 1968. Despite being the youngest in her class, she consistently excelled academically and earned the admiration of both peers and teachers. She served as Girls' Prefect at both primary and middle school levels and was widely recognised for her discipline, neatness, and outstanding performance.
@@ -462,8 +482,8 @@ export default function App() {
                       Harriet was a pillar of strength in her family and played a central role in the success of their business ventures. In March 1985, together with her husband, she established a licensed chemical shop in Obuasi, which later became a pharmacy in 1993. Through her intelligence, dedication, and tireless work ethic, she made the business flourish and become one of the town's leading pharmacies.
                     </p>
                   </div>
-                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4">
-                    <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">Her Spiritual Journey</h4>
+                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
+                    <h4 className="text-xl font-bold text-gray-900 dark:text-white">Her Spiritual Journey</h4>
                     <p>
                       Though not born into a family of Jehovah's Witnesses, Harriet's spiritual path began when her mother embraced Bible truth through her study with the Witnesses. Harriet followed this path with conviction and, on 8th December 1967, symbolised her dedication to Jehovah through water baptism. She remained a faithful and devoted servant of Jehovah throughout her life until her peaceful passing on 24th December 2025.
                     </p>
@@ -474,8 +494,8 @@ export default function App() {
                       She was an exemplary figure to many—especially young ones and married couples—demonstrating through her life what it meant to love, serve, and remain steadfast in faith.
                     </p>
                   </div>
-                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4">
-                    <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">A Devoted Wife, Loving Mother, and Compassionate Caregiver</h4>
+                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
+                    <h4 className="text-xl font-bold text-gray-900 dark:text-white">A Devoted Wife, Loving Mother, and Compassionate Caregiver</h4>
                     <p>
                       Harriet was a remarkable woman whose life was defined by love, strength, and selflessness. As a wife, she stood firmly beside her husband through every season, offering unwavering support and companionship. Their home was a haven of peace, built on trust, respect, and deep affection.
                     </p>
@@ -489,14 +509,14 @@ export default function App() {
                       Such was her impact that many friends chose to name their children after her—a lasting tribute to the love and respect she inspired.
                     </p>
                   </div>
-                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4">
-                    <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">A Life of Warmth and Generosity</h4>
+                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
+                    <h4 className="text-xl font-bold text-gray-900 dark:text-white">A Life of Warmth and Generosity</h4>
                     <p>
                       Auntie Akwaley had a special gift for bringing people together, often expressed through her love of cooking. Her meals were not merely food but heartfelt expressions of care, warmth, and unity. She found joy in serving others, and her kindness touched countless lives, both near and far.
                     </p>
                   </div>
-                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4">
-                    <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">A Blessed Hope</h4>
+                  <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed text-justify">
+                    <h4 className="text-xl font-bold text-gray-900 dark:text-white">A Blessed Hope</h4>
                     <p>
                       Though our hearts are heavy with grief, we find comfort in the sure hope of the resurrection—a promise that sustains us in this time of loss.
                     </p>
@@ -509,21 +529,14 @@ export default function App() {
                     <p className="font-semibold text-gray-900 dark:text-white">Forever in our hearts.</p>
                   </div>
                 </div>
-                {/* Mobile: Preview with Read More button */}
-                <div className="md:hidden">
-                  <div className="prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 leading-relaxed space-y-4 text-justify bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm">
-                    <p>
-                      Mrs. Harriet Atuahene Sarkodie, affectionately known as Auntie Akwaley, was born on 15th February 1953 at Kukrantumi in the Eastern Region of Ghana...
-                    </p>
-                  </div>
-                  <button
-                    onClick={() => setBioModalOpen(true)}
-                    className="mt-6 px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 shadow-lg hover:shadow-xl hover:scale-105 font-semibold"
-                  >
-                    📖 Read Full Biography
-                  </button>
-                </div>
-              </div>
+              )}
+
+              <button
+                onClick={() => setBioExpanded(!bioExpanded)}
+                className="px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 shadow-lg hover:shadow-xl hover:scale-105 font-semibold"
+              >
+                {bioExpanded ? '↑ Read Less' : '📖 Read More'}
+              </button>
             </div>
 
             {/* Program Section */}
@@ -809,7 +822,10 @@ export default function App() {
                               <span className="text-white text-4xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform group-hover:scale-110">🔍</span>
                             </div>
                             <div className="absolute bottom-0 left-0 right-0 bg-black/70 text-white p-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                              <p className="text-sm font-medium">Click to view</p>
+                              {'caption' in img && img.caption
+                                ? <p className="text-sm font-medium leading-snug">{img.caption as string}</p>
+                                : <p className="text-sm font-medium">Click to view</p>
+                              }
                             </div>
                           </button>
                         );
