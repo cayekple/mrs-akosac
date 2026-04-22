@@ -409,7 +409,7 @@ export default function App() {
                 <div className="hover-lift bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-800 animate-slide-up stagger-1">
                   <div className="text-4xl mb-3">📍</div>
                   <h3 className="font-bold text-gray-900 dark:text-white mb-2">Venue</h3>
-                  <p className="text-gray-600 dark:text-gray-400">AGA Basic School</p>
+                  <p className="text-gray-600 dark:text-gray-400">AGA Basic School, Obuasi</p>
                   <a
                     href="https://maps.app.goo.gl/PYKpQvusKgoZLJ228"
                     target="_blank"
@@ -433,7 +433,7 @@ export default function App() {
 
               <div className="max-w-2xl mx-auto space-y-3 text-base sm:text-lg text-gray-600 dark:text-gray-400 text-center">
                 <p className="hover:text-gray-900 dark:hover:text-gray-200 transition-colors">
-                  <span className="font-semibold">Body Viewing:</span> AKOSAC's residence, Akosac's Street near Santiago Bar at 8:00 AM
+                  <span className="font-semibold">Body Viewing:</span> AKOSAC's residence, Akosac's Street near Santiago Bar, Obuasi at 8:00 AM
                 </p>
                 <p className="hover:text-gray-900 dark:hover:text-gray-200 transition-colors">
                   <span className="font-semibold">Memorial Speech, Music & Photo Gallery:</span> 10:00 AM
@@ -453,7 +453,7 @@ export default function App() {
 
               {/* Preview — always visible */}
               <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed text-justify mb-4">
-                <h4 className="text-xl font-bold text-gray-900 dark:text-white">Obituary of Mrs. Harriet Atuahene Sarkodie (Auntie Akwaley)</h4>
+                <h4 className="text-xl font-bold text-gray-900 dark:text-white">Mrs. Harriet Atuahene Sarkodie (Auntie Akwaley)</h4>
                 <p>
                   Mrs. Harriet Atuahene Sarkodie, affectionately known as Auntie Akwaley, was born on 15th February 1953 at Kukrantumi in the Eastern Region of Ghana, to Obaapayin Akosua Adgyeiwaa and Mr. Kwesi Larbi. Her father hailed from James Town with Ga roots, while her mother was Akyem from Kukrantumi.
                 </p>
