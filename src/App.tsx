@@ -46,7 +46,7 @@ export default function App() {
       ]
     },
     {
-      title: 'With Husband',
+      title: 'Husband — Eric Kofi Atuahene Sarkodie (Late)',
       images: [
         { src: `${basePath}/img/husband/h1.jpeg`, alt: 'Mrs AKOSAC with husband' },
         { src: `${basePath}/img/husband/h2.jpeg`, alt: 'Mrs AKOSAC with husband' },
@@ -59,7 +59,7 @@ export default function App() {
       ]
     },
     {
-      title: 'With Children',
+      title: 'Children',
       images: [
         { src: `${basePath}/img/children/c1.jpeg`, alt: 'Mrs AKOSAC with Abigail Abena Kyeraa Sarkodie Ansah', caption: 'Abigail Abena Kyeraa Sarkodie Ansah' },
         { src: `${basePath}/img/children/c2.jpg`, alt: 'Mrs AKOSAC with Kofi Atuahene Sarkodie', caption: 'Kofi Atuahene Sarkodie' },
@@ -67,18 +67,18 @@ export default function App() {
       ]
     },
     {
-      title: 'With Grandchildren',
+      title: 'Grandchildren',
       images: [
-        { src: `${basePath}/img/grandchildren/g1.jpg`, alt: 'Mrs AKOSAC with grandchildren' },
-        { src: `${basePath}/img/grandchildren/g2.jpeg`, alt: 'Mrs AKOSAC with grandchildren' },
-        { src: `${basePath}/img/grandchildren/g3.jpg`, alt: 'Mrs AKOSAC with grandchildren' },
-        { src: `${basePath}/img/grandchildren/g4.jpg`, alt: 'Mrs AKOSAC with grandchildren' },
-        { src: `${basePath}/img/grandchildren/g5.jpg`, alt: 'Mrs AKOSAC with grandchildren' },
-        { src: `${basePath}/img/grandchildren/g6.jpeg`, alt: 'Mrs AKOSAC with grandchildren' },
+        { src: `${basePath}/img/grandchildren/g1.jpg`, alt: 'Mrs AKOSAC with Jared Kofi Obo Ansah', caption: 'Jared Kofi Obo Ansah', objectPosition: 'top' },
+        { src: `${basePath}/img/grandchildren/g2.jpeg`, alt: 'Mrs AKOSAC with Damaris Harriet Efua Ansah', caption: 'Damaris Harriet Efua Ansah', objectPosition: 'top' },
+        { src: `${basePath}/img/grandchildren/g3.jpg`, alt: 'Mrs AKOSAC with Papa Kofi Atuahene Sarkodie Jnr.', caption: 'Papa Kofi Atuahene Sarkodie Jnr.', objectPosition: 'top' },
+        { src: `${basePath}/img/grandchildren/g4.jpg`, alt: 'Mrs AKOSAC with Ama Kwakyewaa Atuahene Sarkodie', caption: 'Ama Kwakyewaa Atuahene Sarkodie', objectPosition: 'top' },
+        { src: `${basePath}/img/grandchildren/g5.jpg`, alt: 'Mrs AKOSAC with Adwoa Owuswaa Atuahene Sarkodie', caption: 'Adwoa Owuswaa Atuahene Sarkodie', objectPosition: 'top' },
+        { src: `${basePath}/img/grandchildren/g6.jpeg`, alt: 'Mrs AKOSAC with Nylephtha Efua Badwua Nunoo', caption: 'Nylephtha Efua Badwua Nunoo', objectPosition: 'top' },
       ]
     },
     {
-      title: 'With Children & Family',
+      title: 'Children & Family',
       images: [
         { src: `${basePath}/img/children-family/2.jpg`, alt: 'Mrs AKOSAC with children and family' },
         { src: `${basePath}/img/children-family/3.jpg`, alt: 'Mrs AKOSAC with children and family' },
@@ -86,7 +86,7 @@ export default function App() {
       ]
     },
     {
-      title: 'With Family & Friends',
+      title: 'Family & Friends',
       images: [
         { src: `${basePath}/img/family-friends/f1.jpg`, alt: 'Mrs AKOSAC with family and friends' },
         { src: `${basePath}/img/family-friends/f2.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
@@ -104,11 +104,11 @@ export default function App() {
       ]
     },
     {
-      title: 'With In-Laws',
+      title: 'In-Laws',
       images: [
-        { src: `${basePath}/img/inlaws/i1.jpeg`, alt: 'Mrs AKOSAC with in-laws' },
-        { src: `${basePath}/img/inlaws/i2.jpeg`, alt: 'Mrs AKOSAC with in-laws' },
-        { src: `${basePath}/img/inlaws/i3.jpeg`, alt: 'Mrs AKOSAC with in-laws' },
+        { src: `${basePath}/img/inlaws/i1.jpeg`, alt: 'Mrs AKOSAC with Benjamin Ansah', caption: 'Benjamin Ansah', objectPosition: 'top' },
+        { src: `${basePath}/img/inlaws/i2.jpeg`, alt: 'Mrs AKOSAC with Shirley Akua Kankam Atuahene Sarkodie', caption: 'Shirley Akua Kankam Atuahene Sarkodie', objectPosition: 'top' },
+        { src: `${basePath}/img/inlaws/i3.jpeg`, alt: 'Mrs AKOSAC with Jacob Nunoo', caption: 'Jacob Nunoo', objectPosition: 'top' },
       ]
     },
   ];
@@ -818,6 +818,7 @@ export default function App() {
                                 src={img.src}
                                 alt={img.alt}
                                 className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-700"
+                                style={'objectPosition' in img ? { objectPosition: img.objectPosition as string } : undefined}
                               />
                               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-300 flex items-center justify-center">
                                 <span className="text-white text-4xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform group-hover:scale-110">🔍</span>
