@@ -807,27 +807,31 @@ export default function App() {
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
                       {category.images.map((img, imgIndex) => {
                         const globalIndex = startIndex + imgIndex;
+                        const caption = 'caption' in img ? img.caption as string : null;
                         return (
-                          <button
-                            key={imgIndex}
-                            onClick={() => onOpenLightboxAt(globalIndex)}
-                            className={`group relative aspect-square overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-offset-2 ring-2 ring-gray-200 dark:ring-gray-800 hover:scale-105 hover:rotate-1 animate-scale-in stagger-${imgIndex + 1}`}
-                          >
-                            <img
-                              src={img.src}
-                              alt={img.alt}
-                              className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-700"
-                            />
-                            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-300 flex items-center justify-center">
-                              <span className="text-white text-4xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform group-hover:scale-110">🔍</span>
-                            </div>
-                            <div className="absolute bottom-0 left-0 right-0 bg-black/70 text-white p-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                              {'caption' in img && img.caption
-                                ? <p className="text-sm font-medium leading-snug">{img.caption as string}</p>
-                                : <p className="text-sm font-medium">Click to view</p>
-                              }
-                            </div>
-                          </button>
+                          <div key={imgIndex} className={`flex flex-col items-center animate-scale-in stagger-${imgIndex + 1}`}>
+                            <button
+                              onClick={() => onOpenLightboxAt(globalIndex)}
+                              className="group relative w-full aspect-square overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-offset-2 ring-2 ring-gray-200 dark:ring-gray-800 hover:scale-105 hover:rotate-1"
+                            >
+                              <img
+                                src={img.src}
+                                alt={img.alt}
+                                className="w-full h-full object-cover group-hover:scale-125 transition-transform duration-700"
+                              />
+                              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-300 flex items-center justify-center">
+                                <span className="text-white text-4xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform group-hover:scale-110">🔍</span>
+                              </div>
+                              {!caption && (
+                                <div className="absolute bottom-0 left-0 right-0 bg-black/70 text-white p-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                  <p className="text-sm font-medium">Click to view</p>
+                                </div>
+                              )}
+                            </button>
+                            {caption && (
+                              <p className="mt-3 text-sm font-bold text-center text-blue-900 dark:text-blue-100 leading-snug px-3 py-2 bg-blue-100 dark:bg-blue-900/50 rounded-lg shadow-sm w-full">{caption}</p>
+                            )}
+                          </div>
                         );
                       })}
                     </div>
