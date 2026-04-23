@@ -455,7 +455,7 @@ export default function App() {
               <div className="hover-lift bg-white/50 dark:bg-gray-900/50 p-6 rounded-xl backdrop-blur-sm space-y-4 text-gray-700 dark:text-gray-300 leading-relaxed text-justify mb-4">
                 <h4 className="text-xl font-bold text-gray-900 dark:text-white">Mrs. Harriet Atuahene Sarkodie (Auntie Akwaley)</h4>
                 <p>
-                  Mrs. Harriet Atuahene Sarkodie, affectionately known as Auntie Akwaley, was born on 15th February 1953 at Kukrantumi in the Eastern Region of Ghana, to Obaapayin Akosua Adgyeiwaa and Mr. Kwesi Larbi. Her father hailed from James Town with Ga roots, while her mother was Akyem from Kukrantumi.
+                  Mrs. Harriet Atuahene Sarkodie, affectionately known as Auntie Akwaley, was born on 15th February 1953 at Kukurantumi in the Eastern Region of Ghana, to Obaapayin Akosua Adgyeiwaa and Mr. Kwesi Larbi. Her father hailed from James Town with Ga roots, while her mother was Akyem from Kukurantumi.
                 </p>
                 <p>
                   She was born into a large, vibrant family of nine siblings and shared a unique bond with her twin, popularly known as Auntie Akooko. Auntie Akwaley and her twin sister were inseparable companions through life's early journey, embodying a deep connection that only twins can share. Sadly, her twin sister passed away some years ago—a loss she carried with quiet strength and grace.
@@ -470,7 +470,7 @@ export default function App() {
                       Over time, she also lost many of her siblings, and at the time of her passing, only one sister remained. Auntie Akwaley and her twin sister were the last of the nine siblings, marking the close of a remarkable family generation.
                     </p>
                     <p>
-                      From an early age, Harriet distinguished herself through diligence and excellence. She began her basic education in Kukrantumi and completed her middle school education in 1968. Despite being the youngest in her class, she consistently excelled academically and earned the admiration of both peers and teachers. She served as Girls' Prefect at both primary and middle school levels and was widely recognised for her discipline, neatness, and outstanding performance.
+                      From an early age, Harriet distinguished herself through diligence and excellence. She began her basic education in Kukurantumi and completed her middle school education in 1968. Despite being the youngest in her class, she consistently excelled academically and earned the admiration of both peers and teachers. She served as Girls' Prefect at both primary and middle school levels and was widely recognised for her discipline, neatness, and outstanding performance.
                     </p>
                     <p>
                       Her academic brilliance earned her several scholarships to further her education. However, due to circumstances beyond her control, she was unable to take advantage of these opportunities. Undeterred, Harriet displayed remarkable resilience and entrepreneurial spirit by venturing into a small-scale business, where she found success through sheer hard work and determination.
@@ -868,13 +868,13 @@ export default function App() {
             <div className="prose prose-lg max-w-none dark:prose-invert text-gray-700 dark:text-gray-300 leading-relaxed space-y-6 text-justify">
               <h4 className="text-xl font-bold text-gray-900 dark:text-white not-prose">Obituary of Mrs. Harriet Atuahene Sarkodie (Auntie Akwaley)</h4>
               <p>
-                Mrs. Harriet Atuahene Sarkodie, affectionately known as Auntie Akwaley, was born on 15th February 1953 at Kukrantumi in the Eastern Region of Ghana, to Obaapayin Akosua Adgyeiwaa and Mr. Kwesi Larbi. Her father hailed from James Town with Ga roots, while her mother was Akyem from Kukrantumi.
+                Mrs. Harriet Atuahene Sarkodie, affectionately known as Auntie Akwaley, was born on 15th February 1953 at Kukurantumi in the Eastern Region of Ghana, to Obaapayin Akosua Adgyeiwaa and Mr. Kwesi Larbi. Her father hailed from James Town with Ga roots, while her mother was Akyem from Kukurantumi.
               </p>
               <p>
                 She was born into a large, vibrant family of nine siblings and shared a unique bond with her twin, popularly known as Auntie Akooko. Auntie Akwaley and her twin sister were inseparable companions through life's early journey, embodying a deep connection that only twins can share. Sadly, her twin sister passed away some years ago—a loss she carried with quiet strength and grace. Over time, she also lost many of her siblings, and at the time of her passing, only one sister remained. Auntie Akwaley and her twin sister were the last of the nine siblings, marking the close of a remarkable family generation.
               </p>
               <p>
-                From an early age, Harriet distinguished herself through diligence and excellence. She began her basic education in Kukrantumi and completed her middle school education in 1968. Despite being the youngest in her class, she consistently excelled academically and earned the admiration of both peers and teachers. She served as Girls' Prefect at both primary and middle school levels and was widely recognised for her discipline, neatness, and outstanding performance.
+                From an early age, Harriet distinguished herself through diligence and excellence. She began her basic education in Kukurantumi and completed her middle school education in 1968. Despite being the youngest in her class, she consistently excelled academically and earned the admiration of both peers and teachers. She served as Girls' Prefect at both primary and middle school levels and was widely recognised for her discipline, neatness, and outstanding performance.
               </p>
               <p>
                 Her academic brilliance earned her several scholarships to further her education. However, due to circumstances beyond her control, she was unable to take advantage of these opportunities. Undeterred, Harriet displayed remarkable resilience and entrepreneurial spirit by venturing into a small-scale business, where she found success through sheer hard work and determination.
