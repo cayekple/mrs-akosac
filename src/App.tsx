@@ -89,7 +89,7 @@ export default function App() {
       title: 'Children & Family',
       images: [
         { src: `${basePath}/img/children-family/2.jpg`, alt: 'Mrs AKOSAC with children and family' },
-        { src: `${basePath}/img/children-family/2.jpg`, alt: 'Mrs AKOSAC with children and family' },
+        { src: `${basePath}/img/children-family/1.png`, alt: 'Mrs AKOSAC with children and family' },
         { src: `${basePath}/img/children-family/n3.jpg`, alt: 'Mrs AKOSAC with children and family' },
       ]
     },
