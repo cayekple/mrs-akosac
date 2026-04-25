@@ -67,6 +67,14 @@ export default function App() {
       ]
     },
     {
+      title: 'In-Laws',
+      images: [
+        { src: `${basePath}/img/inlaws/i1.jpeg`, alt: 'Mrs AKOSAC with Benjamin Ansah', caption: 'Benjamin Ansah', objectPosition: 'top' },
+        { src: `${basePath}/img/inlaws/i2.jpeg`, alt: 'Mrs AKOSAC with Shirley Akua Kankam Atuahene Sarkodie', caption: 'Shirley Akua Kankam Atuahene Sarkodie', objectPosition: 'top' },
+        { src: `${basePath}/img/inlaws/i3.jpeg`, alt: 'Mrs AKOSAC with Jacob Nunoo', caption: 'Jacob Nunoo', objectPosition: 'top' },
+      ]
+    },
+    {
       title: 'Grandchildren',
       images: [
         { src: `${basePath}/img/grandchildren/g1.jpg`, alt: 'Mrs AKOSAC with Jared Kofi Obo Ansah', caption: 'Jared Kofi Obo Ansah', objectPosition: 'top' },
@@ -81,7 +89,7 @@ export default function App() {
       title: 'Children & Family',
       images: [
         { src: `${basePath}/img/children-family/2.jpg`, alt: 'Mrs AKOSAC with children and family' },
-        { src: `${basePath}/img/children-family/3.jpg`, alt: 'Mrs AKOSAC with children and family' },
+        { src: `${basePath}/img/children-family/2.jpg`, alt: 'Mrs AKOSAC with children and family' },
         { src: `${basePath}/img/children-family/n3.jpg`, alt: 'Mrs AKOSAC with children and family' },
       ]
     },
@@ -101,14 +109,6 @@ export default function App() {
         { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-17 at 11.06.10.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
         { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-18 at 09.05.24.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
         { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-18 at 10.49.07.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
-      ]
-    },
-    {
-      title: 'In-Laws',
-      images: [
-        { src: `${basePath}/img/inlaws/i1.jpeg`, alt: 'Mrs AKOSAC with Benjamin Ansah', caption: 'Benjamin Ansah', objectPosition: 'top' },
-        { src: `${basePath}/img/inlaws/i2.jpeg`, alt: 'Mrs AKOSAC with Shirley Akua Kankam Atuahene Sarkodie', caption: 'Shirley Akua Kankam Atuahene Sarkodie', objectPosition: 'top' },
-        { src: `${basePath}/img/inlaws/i3.jpeg`, alt: 'Mrs AKOSAC with Jacob Nunoo', caption: 'Jacob Nunoo', objectPosition: 'top' },
       ]
     },
   ];
