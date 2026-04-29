@@ -55,9 +55,9 @@ export default function App() {
     {
       title: 'Children',
       images: [
-        { src: `${basePath}/img/children/c1.jpeg`, alt: 'Mrs AKOSAC with Abigail Abena Kyeraa Sarkodie Ansah', caption: 'Abigail Abena Kyeraa Sarkodie Ansah' },
-        { src: `${basePath}/img/children/c2.jpg`, alt: 'Mrs AKOSAC with Kofi Atuahene Sarkodie', caption: 'Kofi Atuahene Sarkodie' },
-        { src: `${basePath}/img/children/c3.jpeg`, alt: 'Mrs AKOSAC with Nana Yaa Asarewaa Sarkodie Nunoo', caption: 'Nana Yaa Asarewaa Sarkodie Nunoo' },
+        { src: `${basePath}/img/children/c1.jpeg`, alt: 'Mrs AKOSAC with Abigail Abena Kyeraa Sarkodie Ansah', caption: 'Abigail Abena Kyeraa Sarkodie Ansah', objectPosition: 'top' },
+        { src: `${basePath}/img/children/c2.jpg`, alt: 'Mrs AKOSAC with Kofi Atuahene Sarkodie', caption: 'Kofi Atuahene Sarkodie', objectPosition: 'top' },
+        { src: `${basePath}/img/children/c3.jpeg`, alt: 'Mrs AKOSAC with Nana Yaa Asarewaa Sarkodie Nunoo', caption: 'Nana Yaa Asarewaa Sarkodie Nunoo', objectPosition: 'top' },
       ]
     },
     {
@@ -82,27 +82,33 @@ export default function App() {
     {
       title: 'Children & Family',
       images: [
-        { src: `${basePath}/img/children-family/2.jpg`, alt: 'Mrs AKOSAC with children and family' },
-        { src: `${basePath}/img/children-family/1.png`, alt: 'Mrs AKOSAC with children and family' },
-        { src: `${basePath}/img/children-family/n3.jpg`, alt: 'Mrs AKOSAC with children and family' },
+        { src: `${basePath}/img/children-family/2.jpg`, alt: 'Mrs AKOSAC with children and family', objectPosition: 'top' },
+        { src: `${basePath}/img/children-family/1.jpeg`, alt: 'Mrs AKOSAC with children and family', objectPosition: 'top' },
+        { src: `${basePath}/img/children-family/n3.jpg`, alt: 'Mrs AKOSAC with children and family', objectPosition: 'top' },
       ]
     },
     {
       title: 'Family & Friends',
       images: [
-        { src: `${basePath}/img/family-friends/f1.jpg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/f2.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/4.jpg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/5.jpg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/29.jpg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/IMG-20241231-WA0001.jpg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/IMG-20241231-WA0004.jpg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/IMG-20251223-WA0001.jpg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/IMG-20251223-WA0011.jpg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-17 at 11.05.32.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-17 at 11.06.10.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-18 at 09.05.24.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
-        { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-18 at 10.49.07.jpeg`, alt: 'Mrs AKOSAC with family and friends' },
+        { src: `${basePath}/img/family-friends/f1.jpg`, alt: 'Mrs AKOSAC with family and friends', objectPosition: 'top' },
+        { src: `${basePath}/img/family-friends/f2.jpeg`, alt: 'Mrs AKOSAC with family and friends', objectPosition: 'top' },
+        { src: `${basePath}/img/family-friends/4.jpg`, alt: 'Mrs AKOSAC with family and friends', objectPosition: 'top' },
+        { src: `${basePath}/img/family-friends/5.jpg`, alt: 'Mrs AKOSAC with family and friends', objectPosition: 'top' },
+        { src: `${basePath}/img/family-friends/29.jpg`, alt: 'Mrs AKOSAC with family and friends', objectPosition: 'top' },
+        { src: `${basePath}/img/family-friends/IMG-20241231-WA0001.jpg`, alt: 'Mrs AKOSAC with family and friends', objectPosition: 'top' },
+        { src: `${basePath}/img/family-friends/IMG-20241231-WA0004.jpg`, alt: 'Mrs AKOSAC with family and friends', objectPosition: 'top' },
+        { src: `${basePath}/img/family-friends/IMG-20251223-WA0001.jpg`, alt: 'Mrs AKOSAC with family and friends', objectPosition: 'top' },
+        { src: `${basePath}/img/family-friends/IMG-20251223-WA0011.jpg`, alt: 'Mrs AKOSAC with family and friends', objectPosition: 'top' },
+        { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-17 at 11.05.32.jpeg`, alt: 'Mrs AKOSAC with family and friends', objectPosition: 'top' },
+        { src: `${basePath}/img/family-friends/WhatsApp Image 2026-04-17 at 11.06.10.jpeg`, alt: 'Mrs AKOSAC with family and friends', objectPosition: 'top' },
+      ]
+    },
+    {
+      title: "Twin Sister's Children",
+      images: [
+        { src: `${basePath}/img/twin-sister-children/1.jpeg`, alt: 'Davis Harrison', objectPosition: 'top' },
+        { src: `${basePath}/img/twin-sister-children/2.jpeg`, alt: 'Michael', objectPosition: 'top' },
+        { src: `${basePath}/img/twin-sister-children/3.jpeg`, alt: 'Beatrice Yaa Dufie', objectPosition: 'top' },
       ]
     },
     {
